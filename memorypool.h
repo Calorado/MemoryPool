@@ -10,7 +10,6 @@ with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 #include <cstdint>
 #include <new>
-#include "lib/gtl/btree.hpp"
 #include "lib/parallel_hashmap/btree.h"
 
 #define IS_64BIT (UINTPTR_MAX > UINT32_MAX)
